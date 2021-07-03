@@ -2,11 +2,162 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
   <title>FlexBlog</title>
 </head>
 <body>
+
+  <header class="menu-bg">
+    <div class="menu">
+      <div class="menu-logo">
+        <a href="#">FlexBlog</a>
+      </div>
+      <nav class="menu-nav">
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#precos">Preços</a></li>
+          <li><a href="#qualidade">Qualidade</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <h1 class="introducao">Novos valores e<br> Propriedades CSS</h1>
+
+  <section class="sobre" id="sobre">
+    <div class="sobre-info">
+      <h2>Sobre</h2>
+      <p>O que temos que ter sempre em mente é que a determinação
+         clara de objetivos afeta positivamente a correta previsão
+          das condições inegavelmente apropriadas objetivos.
+      </p>
+      <p>O que temos que ter sempre em mente é que a determinação
+         clara de objetivos afeta positivamente
+          a correta previsão das condições
+          inegavelmente apropriadas objetivos.
+      </p>
+    </div>
+
+    <div class="sobre-img">
+      <img src="assets/img/sobre1.jpg" alt="imagem ilustrativa">
+    </div>
+    <div class="sobre-img">
+      <img src="assets/img/sobre2.jpg" alt="imagem ilustrativa">
+    </div>
+  </section>
+
+  <section class="produtos" id="produtos">
+    <div class="produtos-container">
+      <div class="produtos-item purple">
+        <h2>Purple</h2>
+        <img src="./assets/img/produtos1.jpg" alt="produtos">
+      </div>
+      <div class="produtos-item pink">
+        <h2>Pink</h2>
+        <img src="./assets/img/produtos2.jpg" alt="produtos">
+      </div>
+      <div class="produtos-item blue">
+        <h2>Blue</h2>
+        <img src="./assets/img/produtos3.jpg" alt="produtos">
+      </div>
+    </div>
+  </section>
+
+  <section class="preco" id="preco">
+    <div class="preco-item cobre">
+      <h2>Cobre</h2>
+      <span><sup>R$</sup> 19</span>
+      <ul>
+        <li>Planos ilimitados</li>
+        <li>Acesso Restrito</li>
+        <li>Conteúdo Secreto</li>
+        <li>Suporte 24h</li>
+      </ul>
+      <button>Comprar</button>
+    </div>
+
+    <div class="preco-item prata">
+      <h2>Prata</h2>
+      <span><sup>R$</sup> 39</span>
+      <ul>
+        <li>Planos ilimitados</li>
+        <li>Acesso Restrito</li>
+        <li>Compra exclusiva</li>
+        <li>Conteúdo ilimitado</li>
+        <li>Suporte 24h</li>
+      </ul>
+      <button>Comprar</button>
+    </div>
+
+    <div class="preco-item ouro">
+      <h2 class="ouro">Ouro</h2>
+      <span><sup>R$</sup> 63</span>
+      <ul>
+        <li>Planos ilimitados</li>
+        <li>Acesso Restrito</li>
+        <li>Compra exclusiva</li>
+        <li>Conteúdo ilimitado</li>
+        <li>Posts ilimitados</li>
+        <li>Suporte 24h</li>
+      </ul>
+      <button>Comprar</button>
+    </div>
+  </section>
+
+  <section class="qualidade" id="qualidade">
+    <div class="qualidade-item">
+      <h2>Inteligente</h2>
+      <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
+    </div>
+
+    <div class="qualidade-item">
+      <h2>Compacto</h2>
+      <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
+    </div>
+
+    <div class="qualidade-item">
+      <h2>Econômico</h2>
+      <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
+    </div>
+
+    <div class="qualidade-item">
+      <h2>Transparente</h2>
+      <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
+    </div>
+
+    <div class="qualidade-item">
+      <h2>Opaco</h2>
+      <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
+    </div>
+
+    <div class="qualidade-item">
+      <h2>Sustentável</h2>
+      <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
+    </div>
+  </section>
+
+  <section class="newsletter" id="newsletter">
+    <div class="newsletter-info">
+      <h1>Newsletter</h1>
+      <p>Assine e fique por dentro das novidades </p>
+    </div>
+    <form class="newsletter-form">
+      <input 
+      type="text"
+      placeholder="Seu e-mail"
+      >
+      <button type="submit">Assinar</button>
+    </form>
+  </section>  
   
+  <footer>
+    <p>FlexBox todos os direitos reservados.</p>
+  </footer>
+
 </body>
 </html>

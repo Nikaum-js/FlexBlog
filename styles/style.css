@@ -1,0 +1,319 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: #222222;
+  background: #f8f8f8;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.menu-bg {
+  background:blueviolet;
+}
+
+.menu {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 16px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu a {
+  color: white;
+}
+
+.menu-logo a {
+  font-size: 2.25em;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.menu-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-nav a {
+  font-size: 1.25em;
+  display: block;
+  padding: 0 18px;
+}
+
+.menu-nav a:hover {
+  color: rgb(129, 129, 245);
+}
+
+.introducao {
+  font-size: 3em;
+  line-height: 1;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 10px;
+}
+
+.sobre {
+  border-top: 4px solid blueviolet;
+  border-bottom: 4px solid blueviolet;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 0;
+  flex-wrap: wrap;
+  display: flex;
+
+}
+
+.sobre-info {
+  flex: 2 1 300px;
+  margin: 0 10px;
+}
+
+.sobre-info h2 {
+  font-size: 3em;
+  margin-bottom: .5em;
+}
+
+.sobre-info p {
+  font-size: 1.25em;
+  line-height: 1.4;
+  margin-bottom: 1em;
+  color: #7c7c7c;
+}
+
+.sobre-img {
+  flex: 1 1 160px;
+  margin: 0 10px;
+}
+
+.produtos {
+  max-width: 960px;
+  margin: 60px auto;
+}
+
+.produtos h2 {
+  font-size: 3em;
+  margin: 0 10px 60px 10px;
+}
+
+.produtos-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.produtos-item {
+  flex: 1 1 175px;
+  margin: 10px;
+}
+
+.produtos-item h2 {
+  font-size: 3em;
+  color: #a4a4a4;
+  background: #f7f7f7;
+  padding: 20px 20px;
+}
+
+.purple {
+  border-top: 8px solid #ae81ff;
+}
+
+.pink {
+  border-top: 8px solid #f9265e;
+}
+
+.blue {
+  border-top: 8px solid #66d9eb;
+}
+
+.preco {
+  background-color: #f8f8f8;
+  padding: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.preco-item {
+  flex: 1;
+  border-radius: 7px;
+  border:5px solid #312e2e;
+  padding:20px;
+  margin: 10px;
+}
+
+.preco-item h2 {
+  font-size: 3em;
+  color: #a4a4a4;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.cobre h2 {
+  color: #b87333;
+}
+
+.prata h2 {
+  color: #c0c0c0;
+}
+
+.ouro h2 {
+  color: #ffd700;
+}
+
+.preco-item span {
+  max-width: 300px;
+  margin: 20px auto;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0 5px 0;
+  font-size: 3em;
+  border-bottom: 5px solid #312e2e;
+}
+
+.preco-item sup {
+  font-size: 1.5rem;
+}
+
+.preco-item ul {
+  max-width: 300px;
+  margin: 20px auto;
+  font-size: 1.25em;
+  font-style: italic;
+  color: #7c7c7c;
+}
+
+.preco-item li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.preco-item li::after {
+  content: '';
+  display: block;
+  width: 6px;
+  height: 6px;
+  background: blue;
+}
+
+.preco-item button {
+  font-family: "Roboto";
+  max-width: 300px;
+  color: black;
+  display: block;
+  margin: 20px auto;
+  height: 30px;
+  width: 120px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  background: rgb(133, 72, 190);
+}
+
+.qualidade {
+  max-width: 960px;
+  margin: 60px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.qualidade-item {
+  flex: 1 1 300px;
+  margin: 20px 10px;
+}
+
+.qualidade-item h2 {
+  font-size: 2.25em;
+  color: #a4a4a4;
+  margin-bottom: 20px;
+}
+
+.qualidade-item h2::before {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.qualidade-item:nth-of-type(3n+1) h2::before {
+  background: blue;
+}
+
+.qualidade-item:nth-of-type(3n+2) h2::before {
+  background: red;
+}
+
+.qualidade-item:nth-of-type(3n+3) h2::before {
+  background: orange;
+}
+
+.qualidade-item p {
+  font-size: 1.25em;
+  line-height: 1.4;
+  color: #7c7c7c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
