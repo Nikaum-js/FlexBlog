@@ -12,18 +12,6 @@
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 
-## 🚀 Instalando FlexBlog
-
-Para instalar o FlexBlog, siga estas etapas:
-
-Linux, macOS e Windows:
-```
-git clone https://github.com/Nikolas-as/FlexBlog.git
-
-cd FlexBlog
-
-npm start
-```
 ## 🤝 Colaboradores
 
 Agradecemos às seguintes pessoas que contribuíram para este projeto:
